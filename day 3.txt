@@ -1,0 +1,29 @@
+Question 1
+Write a Python program to add two numbers using class and object.
+(Take both numbers as input from the user)
+
+Answer:
+
+def add_num(a,b):
+    sum=a+b;
+    return sum; 
+num1=int(input("input the number one: "))
+num2=int(input("input the number one :"))
+print("The sum is",add_num(num1,num2))
+
+Question 2
+Define a function swap that should swap two values and print the swapped variables outside the
+swap function.
+
+Answer:
+
+x = 5
+y = 10
+print("before swapping: ")
+print("Value of x : ", x, " and y : ", y)
+
+temp = x
+x = y
+y = temp
+
+print("Value of x : ", x, " and y : ", y)
